@@ -1,71 +1,115 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
   <head>
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
 
-    <base href="/">
-    <title>MEAN Seed</title>
+    <title>Jorge Suárez Web Developer</title>
     
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+      <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body ng-controller="MainCtrl">
-    <nav class="navbar navbar-default animated slideInDown">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">MEAN Seed</a>
+  <body>
+    <!-- Main Banner -->
+    <div class="row top-row">
+      <div class="col-sm-2 col-xs-0 spacer"></div>
+      <div class="col-sm-10 col-xs-12 content-box main-view">
+        <div class="col-xs-10 welcome-box">
+          <div class="col-xs-4 logo-box image-box">
+            <img src="http://placehold.it/300x300">
+          </div>
+          <div class="col-xs-8 page-title-box">
+             <h1>Jorge Suárez</h1>
+             <h3>Full Stack Web Developer</h3> 
+          </div>
         </div>
+        <div class="col-xs-2 navigation">
+          <h3>About</h3>
+          <h3>Work</h3>
+        </div>  
+      </div>
+    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-<!--             <li ng-hide='isLoggedIn' ng-cloak><a href="/login">Login</a></li>
-            <li ng-hide='isLoggedIn' ng-cloak><a href="/sign-up">Signup</a></li>
- -->            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+    <!-- line-divider row -->
+    <div class="row">
+      <div class="col-xs-1 spacer"></div>
+      <div class="col-xs-10 line-divider"></div>
+      <div class="col-xs-1 spacer"></div>      
+    </div>
 
-    <!-- ANGULAR APP INSERTER HERE -->
-    <div ui-view class="container"></div>
+    <!-- PROJECTS SECTION -->
+    <h2 class="project-section-title">Work</h2>
+    
+    <!-- Project 1 -->
+      <div class="row project left-side">
+        <div class="col-sm-10 col-xs-12 content-box main-view">
+          <div class="col-xs-12 project-box">
+            <div class="col-xs-8 about-project-box">
+              <div class="project-header">
+                  <div class="project-title col-xs-12">
+                    <h1>Drop the Needle</h1>
+                  </div>
+                  <div class="project-subtitle col-xs-12">
+                    <h4>Music quiz game featuring the Spotify API</h4>
+                  </div>
+              </div>
+
+
+            </div>
+            <div class="col-xs-4 logo-box image-box">
+              <img src="http://placehold.it/300x300">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-0 spacer"></div>
+      </div>
+
+
+    <!-- Project 2 -->
+      <div class="row project right-side">
+      <div class="col-sm-2 col-xs-0 spacer"></div>
+        <div class="col-sm-10 col-xs-12 content-box main-view">
+          <div class="col-xs-12 project-box">
+            <div class="col-xs-4 logo-box image-box">
+              <img src="http://placehold.it/300x300">
+            </div>
+            <div class="col-xs-8 about-project-box">
+               <h1 class="project-title col-xs-12">Savit</h1>
+               <h4 class="project-subtitle">Music quiz game featuring the Spotify API</h4> 
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+
+    <!-- Project 3 -->
+      <div class="row project left-side last-project">
+        <div class="col-sm-10 col-xs-12 content-box main-view">
+          <div class="col-xs-12 project-box">
+            <div class="col-xs-8 about-project-box">
+               <h1 class="project-title col-xs-12">Bar Marks</h1>
+               <h4 class="project-subtitle">Music quiz game featuring the Spotify API</h4> 
+            </div>
+            <div class="col-xs-4 logo-box image-box">
+              <img src="http://placehold.it/300x300">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-xs-0 spacer"></div>
+      </div>
     
   </body>
   
   <!-- THIRD PARTY LIBRARIES -->
-  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-  <script type="text/javascript" src="/vendor/angular/angular.js"></script>
-  <script type="text/javascript" src="/vendor/angular-resource/angular-resource.js"></script>
-  <script type="text/javascript" src="/vendor/angular-ui-router/release/angular-ui-router.js"></script>
-  <script type="text/javascript" src="/vendor/angular-sanitize/angular-sanitize.js"></script>
-  <script type="text/javascript" src="/vendor/angular-touch/angular-touch.js"></script>
+
 
   <!-- YOUR SCRIPTS -->
-  <script type="text/javascript" src="/app.js"></script>
-  <script type="text/javascript" src="/controllers.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </html>

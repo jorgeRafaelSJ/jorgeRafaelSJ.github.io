@@ -1,0 +1,55 @@
+body {
+	background-color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.top-row {
+	margin-top: 125px;
+}
+.content-box {
+	background-color: #eee;
+	height: 400px;
+}
+.navigation {
+	border-left: 1px solid black;
+	height: 300px;
+	margin-top: 50px;
+}
+.page-title-box {
+	text-align: right;
+	height: 300;
+	margin-top: 40px;
+}
+.image-box {
+	margin-top: 50px;
+}
+.about-project-box {
+	height: 300;
+	margin-top: 40px;
+}
+.project {
+	margin-bottom: 150px;
+}
+.last-project {
+	margin-bottom: 125px;
+}
+.line-divider {
+	height: 1px;
+	border-bottom: 1px solid #eee;
+	margin-top: 150px;
+	margin-bottom: 0px;
+}
+.project-section-title {
+	color: #eee;
+	height: 150px;
+	padding-top: 35px;
+	margin: 0;
+	text-align: center;
+	font-size: 50px;
+}
+.project-header {
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+.project-subtitle {
+	font-size: 16px;
+}
