@@ -8,11 +8,14 @@ body {
 .content-box {
 	background-color: #eee;
 	height: 400px;
+	padding-right: 0px;
 }
 .navigation {
 	border-left: 1px solid black;
 	height: 300px;
 	margin-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .page-title-box {
 	text-align: right;
@@ -83,4 +86,26 @@ body {
 	font-size: 16px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+.nav-option {
+	padding: 10px 5px 10px 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-tab0:hover {
+	background-color: #ddd;
+}
+#nav-tab1:hover {
+	background-color: #ddd;
+}
+#nav-tab2:hover {
+	background-color: #ddd;
+
+}
+#nav-tab3:hover {
+	background-color: #ddd;
+	
+}
+.selected {
+	background-color: #ddd;
 }
