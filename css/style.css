@@ -22,6 +22,9 @@ body {
 .image-box {
 	margin-top: 50px;
 }
+.name {
+	font-size: 65px;
+}
 .about-project-box {
 	height: 300;
 	margin-top: 40px;
@@ -41,7 +44,7 @@ body {
 .project-section-title {
 	color: #eee;
 	height: 150px;
-	padding-top: 35px;
+	padding-top: 50px;
 	margin: 0;
 	text-align: center;
 	font-size: 50px;
@@ -50,6 +53,34 @@ body {
 	margin-top: 10px;
 	border-bottom: 1px solid black;
 }
+.project-title {
+	font-size: 35px;
+	padding-left: 5px;
+}
 .project-subtitle {
+	padding-top: 22px;
 	font-size: 16px;
+	text-align: right;
+}
+.project-description {
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 25px;
+}
+.tech-used {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.tech-title {
+	font-size: 18px;
+}
+#main-logo {
+	width: 300px;
+}
+.project-link {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
