@@ -1,6 +1,5 @@
 $(document).ready( function () {
-	console.log('jQuery WORKS!');
-
+	
 	$('#nav-tab0').on('click', function () {
 		$(this).addClass('hidden');
 		$(".about-box").addClass('hidden');
@@ -21,6 +20,10 @@ $(document).ready( function () {
 	});	
 	
 	$('#nav-tab2').on('click', function () {
+		$("#nav-tab0").addClass('hidden');
+		$(".welcome-box").removeClass('hidden');
+		$(".about-box").addClass('hidden');
+		$(".contact-box").addClass('hidden');
 		$("#nav-tab1").removeClass('selected');
 		$("#nav-tab3").removeClass('selected');
 		var y = $(window).scrollTop(); 

@@ -1,39 +1,51 @@
-body {
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 	background-color: #000;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 .top-row {
-	margin-top: 125px;
+	margin-top: 200px;
+}
+.logo {
+	width: 400px;
+	margin: 50px auto 24px auto;
 }
 .content-box {
 	background-color: #eee;
-	height: 400px;
+	height: 375px;
 	padding-right: 0px;
 }
 .navigation {
 	border-left: 1px solid black;
 	height: 300px;
-	margin-top: 50px;
+	margin-top: 40px;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 .page-title-box {
 	text-align: right;
 	height: 300;
-	margin-top: 40px;
+	margin-top: 25px;
 }
 .image-box {
 	margin-top: 50px;
+	text-align: center;
+
 }
 .name {
 	font-size: 65px;
 }
-.about-project-box {
-	height: 300;
-	margin-top: 40px;
+.project-section {
+	background-color: #eee;
+	margin-top: 125px;
 }
-.project {
-	margin-bottom: 150px;
+.project-box{
+	padding-right: 0px;
+	margin-bottom: 50px;
 }
 .last-project {
 	margin-bottom: 125px;
@@ -44,8 +56,9 @@ body {
 	margin-top: 150px;
 	margin-bottom: 0px;
 }
+
 .project-section-title {
-	color: #eee;
+	color: black;
 	height: 150px;
 	padding-top: 50px;
 	margin: 0;
@@ -58,7 +71,7 @@ body {
 }
 .project-title {
 	font-size: 35px;
-	padding-left: 5px;
+	padding-left: 40px;
 }
 .project-subtitle {
 	padding-top: 22px;
@@ -76,9 +89,6 @@ body {
 }
 .tech-title {
 	font-size: 18px;
-}
-#main-logo {
-	width: 300px;
 }
 .project-link {
 	text-align: center;
@@ -108,4 +118,7 @@ body {
 }
 .selected {
 	background-color: #ddd;
+}
+.project-image {
+	max-width: 500px;
 }
