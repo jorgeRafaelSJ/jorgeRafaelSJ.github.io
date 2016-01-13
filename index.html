@@ -43,27 +43,86 @@
      <!-- About -->
 
     <div class="hidden col-xs-10 about-box">
-    
+      <!-- Bio Box -->
+      <div class="col-xs-12 col-sm-5 bio-box">
+        <h2 class="about-section-title">About Me</h2>
+        <p class="about-text">
+        My full name is Jorge Rafael Suárez Jiménez. It's a lot of name.
+        I am a Full Stack Web Developer.
+        I am a creative team player with a fervor for innovation.
+        I am passionate about improving our earthly experience through creative solutions, staying current and evolving with the times, learning all I can from people I work with, and Beyonce's latest single. 
+        <p class="about-text">I  <span class="ion-heart"></span><a class="chopin" target="_blank" href="https://www.youtube.com/watch?v=WCy3rs29clo"> Frédéric Chopin</a></p>
+        </p>
+      </div>
+      <!-- Skills Box -->
+      <div class="col-xs-12 col-sm-7 skills-box">
+        <h2 class="about-section-title">Skills</h2>
+        <div class="skills-col-1 col-xs-12 col-sm-6">
+          <h4 class="skill-types-titles">Languages</h4>
+            <ul class="skill-list">
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+
+          <h4 class="skill-types-titles">Database Tools</h4>
+            <ul class="skill-list">
+              <li>MongoDB</li>
+              <li>Mongoose.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+        <div class="skills-col-2 col-xs-12 col-sm-6">
+          <h4 class="skill-types-titles">Frameworks</h4>
+            <ul class="skill-list">
+              <li>Express</li>
+              <li>AngularJS</li>
+              <li>Node.js</li>
+              <li>Rails</li>
+            </ul>
+          <h4 class="skill-types-titles">Libraries</h4>
+            <ul class="skill-list">
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>Material Design</li>
+            </ul>
+        </div>
+        <div class="col-xs-12 other-skills-div">
+          <span class="other-skills-list"><other Class="other-title">Other:</other>  Git/Github, AJAX, Heroku, BCrypt</span>
+        </div>
+      </div>
     </div>
 
 
     <!-- Contact -->
 
     <div class="hidden col-xs-10 contact-box">
-      <form action="//formspree.io/jorgerafaelsj@gmail.com"
-      method="POST">
-        <div class="form-group">
-          <textarea rows="5" placeholder="Type your message here..."class="form-control" type="text" name="name"></textarea>
-          <input class="form-control" type="email" name="_replyto">
-          <input class="btn btn-default" type="submit" value="Send">
-        </div>
-      </form>
+
+      <div class="col-sm-6 col-xs-12">
+        <h2 class="contact-section-title">Contact:</h2>
+        <h3><a href="mailto:jorgerafaelsj@gmail.com">Email: <email>jorgerafaelsj@gmail.com</email></a></h3>
+        <h3>Phone #: 510-703-9024</h3>
+        
+      </div>
+
+      <div class="col-sm-6 col-xs-12">
+        <h2 class="contact-section-title">Message me:</h2>
+        <form action="//formspree.io/jorgerafaelsj@gmail.com"
+        method="POST">
+          <div class="form-group">
+            <textarea rows="3" placeholder="Type your message here..." class="form-control" type="text" name="name"></textarea>
+            <input placeholder="Your Email" class="form-control" type="email" name="_replyto">
+            <input class="btn btn-default pull-right" id="email-btn" type="submit" value="Send">
+          </div>
+        </form>
+      </div>
 
     </div>
 
   <!-- Navigation -->
     <div class="col-xs-2 navigation">
-      <h3 class="hidden nav-option"id="nav-tab0">Home</h3>
+      <h3 class="nav-option"id="nav-tab0">Home</h3>
       <h3 class="nav-option"id="nav-tab1">About</h3>
       <h3 class="nav-option"id="nav-tab2">Work</h3>
       <h3 class="nav-option"id="nav-tab3">Contact</h3>
@@ -91,7 +150,7 @@
         <div class="col-sm-5 col-xs-12 project-description"><b>Drop the Needle</b> is a quiz game app where one hears a snippet of music and has to guess the artist before time runs out. It uses the Spotify API as the source of its music and data. A user can choose from his own Spotify playlists or search all public Spotify playlists to play. All the final results are saved and can be viewed in the dashboard. This project was pair-programmed 90% of the time. Some solo responsibilities were user creation upon first login, and saving the user's quiz results. 
 
           <!-- Technologies 1 -->
-          <span class="col-xs-12 tech-used"><b class="tech-title">Technologies:</b> MongoDB, Express, AngularJS, Node.js, Spotify API, AJAX, Bootstrap, HTML5, CSS3</span>
+          <span class="col-xs-12 tech-used"><b class="tech-title">Technologies:</b> MongoDB, Express, AngularJS, Node.js, Spotify API, AJAX, Bootstrap, Heroku, HTML5, CSS3</span>
 
           <!-- Project 1 links -->
 

@@ -126,7 +126,7 @@ a:visited, a:active, a:link {
 #nav-tab0:hover {
 	background-color: #ddd;
 	border-left: 3px solid #009AC6;
-	padding-left: -3px;
+	padding-left: 17px;
 }
 #nav-tab1:hover {
 	background-color: #ddd;
@@ -167,4 +167,63 @@ a:visited, a:active, a:link {
 }
 .cool-a:hover {
 	color: #009AC6;
+}
+
+/*ABOUT SECTION*/
+.about-section-title, .contact-section-title {
+	border-bottom: 1px solid black;
+	padding-left: 15px;
+	color: #009AC6;
+}
+.about-text {
+	font-size: 20px;
+	padding-top: 10px;
+}
+.chopin {
+	margin-left: 5px;
+	padding-right: 3px;
+	background-color: #ddd;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+.chopin:hover {
+	border: 1px solid #009AC6;
+	background-color: rgba(0,154,198,0.1);
+	color: #007799;
+}
+.ion-heart {
+	color: #009AC6;
+}
+.skill-list {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	font-size: 17px;
+}
+.skill-types-titles {
+	text-align: center;
+	font-size: 21px;
+	color: #009AC6;
+}
+.other-skills-div {
+	text-align: center;
+}
+.other-title {
+	font-size: 21px;
+	color: #009AC6;
+}
+.other-skills-list {
+	font-size: 17px;
+}
+/*CONTACT SECTION*/
+.form-control {
+	margin-top: 15px;
+	font-size: 18px;
+}
+#email-btn {
+	margin-top: 15px;
+}
+email:hover {
+	color:#009AC6;
+	text-decoration: underline;
 }
