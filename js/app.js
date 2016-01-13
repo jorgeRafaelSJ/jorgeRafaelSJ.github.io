@@ -1,4 +1,5 @@
 $(document).ready( function () {
+	var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 	
 	$('#nav-tab0').on('click', function () {
 		$(this).addClass('hidden');
@@ -28,7 +29,7 @@ $(document).ready( function () {
 		$("#nav-tab3").removeClass('selected');
 		var y = $(window).scrollTop(); 
 		console.log(y);
-		$("html, body").animate({ scrollTop: y + ($(window).height() * 1.05 ) }, 600);
+		$("html, body").animate({ scrollTop: y + ($(window).height() * 1.2 ) }, 600);
 	});
 
 	$('#nav-tab3').on('click', function() {
