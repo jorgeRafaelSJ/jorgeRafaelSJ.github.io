@@ -33,6 +33,9 @@ html,body
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.nav-option:hover {
+	cursor:pointer;
+}
 .page-title-box {
 	text-align: right;
 	height: 300;
