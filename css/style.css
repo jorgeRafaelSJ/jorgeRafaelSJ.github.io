@@ -349,6 +349,12 @@ a:visited, a:active, a:link {
 	.page-title-box {
 		padding-right: 50px;
 	}
+	.project-title-link {
+		font-size: 25px;
+	}
+	.project-title {
+		text-align: center;
+	}
 }
 /*iPhone 6plus*/
 @media(max-width: 414px) {
