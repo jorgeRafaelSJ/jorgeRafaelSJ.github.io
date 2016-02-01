@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="Jorge Suárez is a Full Stack Web Developer based in the San Francisco Bay Area. He is a graduate of General Assembly's Web Development Immersive program. He is both a MEAN Stack and Ruby on Rails developer.">
 
-  <title>Jorge Suárez</title>
+  <title>Jorge Suárez | Web Developer</title>
 
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -21,14 +21,16 @@
 <body>
   <!-- Main Banner -->
   <div class="row top-row">
-    <div class="col-sm-10 col-sm-offset-2 col-xs-12 content-box main-view">
+    <div class="col-md-10 col-md-offset-2 col-sm-12 content-box main-view">
 
       <!-- Welcome Box -->
-      <div class="col-xs-10 welcome-box">
-        <div class="col-xs-6 logo-box">
+      <div class="col-sm-10 col-xs-9 welcome-box">
+
+        <div class="col-sm-6 col-xs-3 logo-box">
           <img class="logo" src="images/logoB.png">
         </div>
-        <div class="col-xs-6 page-title-box">
+
+        <div class="col-sm-6 col-xs-9 page-title-box">
           <img id="head-shot" src="images/HeadShot.jpg">
           <h1 class="name">Jorge Su<a target="_blank" href="https://www.youtube.com/watch?v=vYFOC1ZtMF0"><span class="cool-a">á</span></a>rez</h1>
           <h3 id="job-title">Full Stack Web Developer</h3> 
@@ -38,13 +40,14 @@
           <a target="_blank" href="https://www.linkedin.com/in/jorgerafaelsj
           "><i class="social-tag ion-social-linkedin"></i></a>
        </div>
-     </div>
+
+     </div><!-- End of Welcome Box -->
 
      <!-- About -->
 
-    <div class="hidden col-xs-10 about-box">
+    <div class="hidden col-sm-10 col-xs-9 about-box">
       <!-- Bio Box -->
-      <div class="col-xs-12 col-sm-5 bio-box">
+      <div class="col-sm-5 col-xs-12 bio-box">
         <h2 class="about-section-title">About Me</h2>
         <p class="about-text">
         My full name is Jorge Rafael Suárez Jiménez. It's a lot of name.
@@ -55,9 +58,9 @@
         </p>
       </div>
       <!-- Skills Box -->
-      <div class="col-xs-12 col-sm-7 skills-box">
+      <div class="col-sm-7 col-xs-12 skills-box">
         <h2 class="about-section-title">Skills</h2>
-        <div class="skills-col-1 col-xs-12 col-sm-6">
+        <div class="skills-col-1 col-xs-6">
           <h4 class="skill-types-titles">Languages</h4>
             <ul class="skill-list">
               <li>JavaScript</li>
@@ -73,7 +76,7 @@
               <li>PostgreSQL</li>
             </ul>
           </div>
-        <div class="skills-col-2 col-xs-12 col-sm-6">
+        <div class="skills-col-2 col-xs-6">
           <h4 class="skill-types-titles">Frameworks</h4>
             <ul class="skill-list">
               <li>Express</li>
@@ -89,7 +92,7 @@
             </ul>
         </div>
         <div class="col-xs-12 other-skills-div">
-          <span class="other-skills-list"><other Class="other-title">Other:</other>  Git/Github, AJAX, Heroku, BCrypt</span>
+          <span class="other-skills-list"><other Class="other-title">Other:</other>  Git/GitHub, AJAX, Heroku, BCrypt</span>
         </div>
       </div>
     </div>
@@ -97,12 +100,12 @@
 
     <!-- Contact -->
 
-    <div class="hidden col-xs-10 contact-box">
+    <div class="hidden col-sm-10 col-xs-9 contact-box">
 
       <div class="col-sm-6 col-xs-12">
         <h2 class="contact-section-title">Contact:</h2>
-        <h3><a href="mailto:jorgerafaelsj@gmail.com">Email: <email>jorgerafaelsj@gmail.com</email></a></h3>
-        <h3>Phone #: 510-703-9024</h3>
+        <h3 id="contact-email"><a href="mailto:jorgerafaelsj@gmail.com">Email: <email>jorgerafaelsj@gmail.com</email></a></h3>
+        <h3 id="contact-phone">Phone #: 510-703-9024</h3>
         
       </div>
 
@@ -121,7 +124,7 @@
     </div>
 
   <!-- Navigation -->
-    <div class="col-xs-2 navigation">
+    <div class="col-sm-2 col-xs-3 navigation">
       <h3 class="nav-option"id="nav-tab0">Home</h3>
       <h3 class="nav-option"id="nav-tab1">About</h3>
       <h3 class="nav-option"id="nav-tab2">Work</h3>
@@ -136,7 +139,7 @@
     <h2 class="project-section-title">Work</h2>
   </div>
   <!-- Project 1 -->
-  <div class="row col-xs-12 project-box container">
+  <div class="col-xs-12 project-box">
 
         <!-- project 1 header -->
         <div class="row project-header">
@@ -144,7 +147,7 @@
         </div>
 
         <div class="col-lg-5 col-lg-offset-1 col-xs-12 image-box">
-          <a target="_blank" href="http://droptheneedle.herokuapp.com/"><img class="project-image" src="images/DropTheNeedle.png"></a>
+          <a target="_blank" href="http://droptheneedle.herokuapp.com/"><img class="project-image" alt="Drop the Needle App" src="images/DropTheNeedle.png"></a>
         </div>
         <!-- project 1 description -->
         <div class="col-lg-5 col-xs-12 project-description"><b>Drop the Needle</b> is a quiz game app where one hears a snippet of music and has to guess the artist before time runs out. It uses the Spotify API as the source of its music and data. A user can choose from his own Spotify playlists or search all public Spotify playlists to play. All the final results are saved and can be viewed in the dashboard. This project was pair-programmed 90% of the time. Some solo responsibilities were user creation upon first login, and saving the user's quiz results. 
@@ -162,7 +165,7 @@
 
 
   <!-- Project 2 -->
-  <div class="row col-xs-12 project-box container">
+  <div class="col-xs-12 project-box container-fluid">
 
         <!-- Project 2 header -->
         <div class="row project-header">
@@ -170,7 +173,7 @@
         </div>
 
         <div class="col-lg-5 col-lg-offset-1 col-xs-12 image-box">
-          <img class="project-image" src="images/Savit.png">
+          <img class="project-image" alt="Savit App" src="images/Savit.png">
         </div>
 
         <!-- project 2 description -->
@@ -187,7 +190,7 @@
   </div>
 
   <!-- Project 3 -->
-  <div class="row col-xs-12 project-box last-project container">
+  <div class="col-xs-12 project-box last-project container-fluid">
 
 
           <!-- Project 3 header -->
@@ -197,7 +200,7 @@
 
 
           <div class="col-lg-5 col-lg-offset-1 col-xs-12 image-box">
-            <img class="project-image" src="images/BarMarks.png">
+            <img class="project-image" alt="Bar Marks App" src="images/BarMarks.png">
           </div>
 
           <!-- project 3 description -->
