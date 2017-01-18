@@ -120,8 +120,7 @@ a:visited, a:active, a:link {
 	text-align: center;
 	margin-top: 15px;
 	font-size: 16px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 5px;
 }
 .nav-option {
 	padding: 10px 5px 10px 20px;
