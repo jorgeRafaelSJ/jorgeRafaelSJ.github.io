@@ -127,22 +127,7 @@ a:visited, a:active, a:link {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-#nav-tab0:hover {
-	background-color: #ddd;
-	border-left: 3px solid #009AC6;
-	padding-left: 17px;
-}
-#nav-tab1:hover {
-	background-color: #ddd;
-	border-left: 3px solid #009AC6;
-	padding-left: 17px;
-}
-#nav-tab2:hover {
-	background-color: #ddd;
-	border-left: 3px solid #009AC6;
-	padding-left: 17px;
-}
-#nav-tab3:hover {
+.nav-option:hover {
 	background-color: #ddd;
 	border-left: 3px solid #009AC6;
 	padding-left: 17px;
