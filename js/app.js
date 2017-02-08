@@ -26,10 +26,22 @@ $(document).ready( function () {
 		$(".about-box").addClass('hidden');
 		$(".contact-box").addClass('hidden');
 		$("#nav-tab1").removeClass('selected');
+		$("#nav-tab3").removeClass('selected'); 
+
+		var scrollDistance = $('.project-section')[0].offsetTop;
+		$("html, body").animate({ scrollTop: scrollDistance }, 600);
+	});
+
+	// SKILLS
+	$('#nav-tab5').on('click', function () {
+		$(".welcome-box").removeClass('hidden');
+		$(".about-box").addClass('hidden');
+		$(".contact-box").addClass('hidden');
+		$("#nav-tab1").removeClass('selected');
 		$("#nav-tab3").removeClass('selected');
-		var y = $(window).scrollTop(); 
-		console.log(y);
-		$("html, body").animate({ scrollTop: y + ($(window).height() * 1.2 ) }, 600);
+ 
+		var scrollDistance = $('#skills-section')[0].offsetTop;
+		$("html, body").animate({ scrollTop: scrollDistance }, 600);
 	});
 
 	// CONTACT
@@ -40,5 +52,4 @@ $(document).ready( function () {
 		$(".about-box").addClass('hidden');
 		$(".contact-box").removeClass('hidden');
 	});
-
 });

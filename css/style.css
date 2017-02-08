@@ -13,7 +13,9 @@ img.project-image {
 }
 .top-row {
 	margin-top: 35vh;
-	height: 85vh;
+	margin-bottom: 35vh;
+	height: 50vh;
+	position: relative;
 }
 .logo {
 	width: 400px;
@@ -80,13 +82,13 @@ img.project-image {
 	margin-bottom: 0px;
 }
 
-.project-section-title {
+.main-section-title {
 	color: black;
-	height: 125px;
-	padding-top: 50px;
+	height: 60px;
+	padding-top: 10px;
 	margin: 0;
 	text-align: center;
-	font-size: 50px;
+	font-size: 40px;
 }
 .project-title {
 	font-size: 35px;
@@ -120,10 +122,10 @@ a:visited, a:active, a:link {
 	text-align: center;
 	margin-top: 15px;
 	font-size: 16px;
-	padding: 5px;
+	padding: 0px !important;
 }
 .nav-option {
-	padding: 10px 5px 10px 20px;
+	padding: 9.5px 5px 9.5px 20px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -144,15 +146,15 @@ a:visited, a:active, a:link {
 }
 .btn-default {
 	font-size: 20px;
-	background-color: #ddd;
-	border: 1px solid #aaa;
+	background-color: rgba(0,154,198,0.1);
+	border: 1px solid #009AC6;
 	border-radius: 4px;
-	color: #555;
+	color: #007799 !important;
 }
 .btn-default:hover {
 	border: 1px solid #009AC6;
-	background-color: rgba(0,154,198,0.1);
-	color: #007799;
+	background-color: rgba(0,154,198,0.8);
+	color: #eee !important;
 }
 .cool-a:hover {
 	color: #009AC6;
@@ -183,27 +185,6 @@ a:visited, a:active, a:link {
 .ion-heart {
 	color: #009AC6;
 }
-.skill-list {
-	list-style: none;
-	padding: 0;
-	text-align: center;
-	font-size: 17px;
-}
-.skill-types-titles {
-	text-align: center;
-	font-size: 21px;
-	color: #009AC6;
-}
-.other-skills-div {
-	text-align: center;
-}
-.other-title {
-	font-size: 21px;
-	color: #009AC6;
-}
-.other-skills-list {
-	font-size: 17px;
-}
 /*CONTACT SECTION*/
 .form-control {
 	margin-top: 15px;
@@ -220,7 +201,29 @@ a:visited, a:active, a:link {
 	text-align: center;
 	font-size: 16px;
 }
-
+/*SKILLS SECTION*/
+#skills-section {
+	/*height: 200px;*/
+	background-color: #FFFFFF;
+}
+#skills-list {
+	padding: 20px;
+	margin: 0;
+}
+.skill-item {
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	background-color: #009AC6;
+	border: 1px solid #009AC6;
+	border-radius: 5px;
+}
+.skill-item:hover {
+	background-color: rgba(0,154,198,0.5);
+	border-color: rgba(0,154,198,0);
+}
 /*MEDIA TAGS*/
 @media(max-width: 1200px) {
 	.image-box {
